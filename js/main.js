@@ -8,6 +8,7 @@ const handleNav = () => {
     allNavItems.forEach(item => {
         item.addEventListener('click', () => {
             nav.classList.remove('nav--active')
+
         })
     })
     
@@ -24,5 +25,6 @@ const handleNavItemsAnimation = () => {
         delayTime++;
     })
 }
+
 
 navBTN.addEventListener('click', handleNav)

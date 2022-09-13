@@ -19,32 +19,215 @@
 			href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Open+Sans:wght@300;700&display=swap"
 			rel="stylesheet"
 		/>
-        <link rel="stylesheet" href="/css/main.css">
+		<link rel="stylesheet" href="/css/main.css" />
 	</head>
 	<body>
+		<button class="burger-btn">
+			<div class="burger-btn__box">
+				<div class="burger-btn__bars"></div>
+			</div>
+		</button>
 
-        <button class="burger-btn">
-            <div class="burger-btn__box">
-                <div class="burger-btn__bars"></div>
-            </div>
-        </button>
-        
-        <nav class="nav">
-            <div class="nav__items">
-                <a href="#islands" class="nav__item">Wyspy</a>
-                <a href="#offers" class="nav__item">Oferty</a>
-                <a href="#reviews" class="nav__item">Opinie</a>
-                <a href="#contact" class="nav__item">Kontakt</a>
-            </div>
-        </nav>
+		<nav class="nav">
+			<div class="nav__items">
+				<a href="#islands" class="nav__item">Wyspy</a>
+				<a href="#offers" class="nav__item">Oferty</a>
+				<a href="#reviews" class="nav__item">Opinie</a>
+				<a href="#contact" class="nav__item">Kontakt</a>
+			</div>
+		</nav>
 
-        <header class="header section">
-            <h1 class="header__heading">Tropical Paradise</h1>
-            <p class="header__text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            <a href="#offers" class="header__btn btn-special-animation">Poznaj ofertę</a>
-            <div class="white-block white-block-left"></div>
-        </header>
+		<header class="header section">
+			<h1 class="header__heading">Tropical Paradise</h1>
+			<p class="header__text">
+				Lorem ipsum dolor sit amet consectetur adipisicing elit.
+			</p>
+			<a href="#offers" class="header__btn btn-special-animation"
+				>Poznaj ofertę</a
+			>
+			<div class="white-block white-block-left"></div>
+		</header>
 
-        <script src="js/main.js"></script>
-    </body>
+		<main class="main">
+			<section class="dreams section-padding section white-section">
+				<div class="wrapper">
+					<h2 class="section-heading">Spełniaj marzenia</h2>
+
+					<div class="dreams__box">
+						<div class="dreams__box-img">
+							<img
+								src="/img/paradise-598201_640.jpg"
+								alt="Domki nad oceanem"
+								class="dreams__img"
+							/>
+						</div>
+						<div class="dreams__box-text">
+							<h3 class="dreams__title">Wymarzone wakacje</h3>
+							<p class="dreams__text">
+								Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+								Accusantium ducimus, non amet inventore velit explicabo quod
+								consequuntur perferendis quasi alias.
+							</p>
+						</div>
+					</div>
+					<div class="dreams__box">
+						<div class="dreams__box-img dreams__box-img--right">
+							<img
+								src="/img/bora-bora-3023437_640.jpg"
+								alt="Domki nad oceanem na tle góry"
+								class="dreams__img"
+							/>
+						</div>
+						<div class="dreams__box-text dreams__box-text--right">
+							<h3 class="dreams__title">Niezapomniane przygody</h3>
+							<p class="dreams__text">
+								Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+								Accusantium ducimus, non amet inventore velit explicabo quod
+								consequuntur perferendis quasi alias.
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="hero-img section">
+				<div class="white-block white-block-left"></div>
+				<div class="white-block white-block-right"></div>
+				<p class="hero-img__title">Tropical Paradise</p>
+				<hr />
+				<p class="hero-img__text">Jedyne takie miejsce na ziemi</p>
+				<hr />
+			</section>
+
+			<section
+				class="islands section-padding sections white-section"
+				id="islands"
+			>
+				<div class="wrapper">
+					<h2 class="section-heading">Polecane wyspy</h2>
+
+					<div class="islands__cards">
+						<div class="islands__card" onclick="void(0)">
+							<div class="islands__card-img islands__card-img--first">
+								<h3 class="islands__card-img-title">Wyspa Tiki Taki</h3>
+								<p class="islands__card-img-info">
+									<i class="fas fa-angle-double-right"></i> Więcej informacji
+								</p>
+							</div>
+							<div class="islands__card-info">
+								<h3 class="islands__card-info-title">Wyspa Tiki Taki</h3>
+								<ul class="islands__card-info-list">
+									<li class="islands__card-info-list-item">Piękna okolica</li>
+									<li class="islands__card-info-list-item">Ciepła woda</li>
+									<li class="islands__card-info-list-item">Czyste plaże</li>
+									<li class="islands__card-info-list-item">Eksluzywny bar</li>
+									<li class="islands__card-info-list-item">Wysokie palmy</li>
+								</ul>
+								<button class="islands__card-info-btn btn-special-animation">
+									Wybierz
+								</button>
+							</div>
+						</div>
+						<div class="islands__card" onclick="void(0)">
+							<div class="islands__card-img islands__card-img--second">
+								<h3 class="islands__card-img-title">Wyspa Toca Toca</h3>
+								<p class="islands__card-img-info">
+									<i class="fas fa-angle-double-right"></i> Więcej informacji
+								</p>
+							</div>
+							<div class="islands__card-info">
+								<h3 class="islands__card-info-title">Wyspa Toca Toca</h3>
+								<ul class="islands__card-info-list">
+									<li class="islands__card-info-list-item">Piękna okolica</li>
+									<li class="islands__card-info-list-item">Ciepła woda</li>
+									<li class="islands__card-info-list-item">Czyste plaże</li>
+									<li class="islands__card-info-list-item">Eksluzywny bar</li>
+									<li class="islands__card-info-list-item">Wysokie palmy</li>
+								</ul>
+								<button class="islands__card-info-btn btn-special-animation">
+									Wybierz
+								</button>
+							</div>
+						</div>
+						<div class="islands__card" onclick="void(0)">
+							<div class="islands__card-img islands__card-img--third">
+								<h3 class="islands__card-img-title">Wyspa Nobu</h3>
+								<p class="islands__card-img-info">
+									<i class="fas fa-angle-double-right"></i> Więcej informacji
+								</p>
+							</div>
+							<div class="islands__card-info">
+								<h3 class="islands__card-info-title">Wyspa Nobu</h3>
+								<ul class="islands__card-info-list">
+									<li class="islands__card-info-list-item">Piękna okolica</li>
+									<li class="islands__card-info-list-item">Ciepła woda</li>
+									<li class="islands__card-info-list-item">Czyste plaże</li>
+									<li class="islands__card-info-list-item">Eksluzywny bar</li>
+									<li class="islands__card-info-list-item">Wysokie palmy</li>
+								</ul>
+								<button class="islands__card-info-btn btn-special-animation">
+									Wybierz
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="offers section-padding section" id="offers">
+				<div class="white-block white-block-right"></div>
+				<div class="white-block white-block-left"></div>
+
+				<h2 class="section-heading">Oferty</h2>
+				<div class="wrapper">
+					<div class="offers__box">
+						<div class="offers__option">
+							<img
+								src="/img/beach-3525429_640.jpg"
+								alt="Kolacja na plaży"
+								class="offers__option-img"
+							/>
+							<div class="offers__option-info">
+								<h3 class="offers__option-heading">Wyjazd z dziećmi</h3>
+
+								<p class="offers__option-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus itaque molestias suscipit libero. Tenetur fugit totam, reiciendis quam impedit assumenda!</p>
+								<p class="offers__option-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+								<button class="offers__option-btn btn-special-animation">Wybierz</button>
+							</div>
+						</div>
+						<div class="offers__option">
+							<img
+								src="/img/bubbles-2271209_640.jpg"
+								alt="Zabawa z dziećmi"
+								class="offers__option-img offers__option-img--right"
+							/>
+							<div class="offers__option-info">
+								<h3 class="offers__option-heading">Wypad z kumplami</h3>
+
+								<p class="offers__option-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus itaque molestias suscipit libero. Tenetur fugit totam, reiciendis quam impedit assumenda!</p>
+								<p class="offers__option-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+								<button class="offers__option-btn btn-special-animation">Wybierz</button>
+							</div>
+						</div>
+						<div class="offers__option">
+							<img
+								src="/img/turtle-2201433_640.jpg"
+								alt="Żółw na plaży"
+								class="offers__option-img"
+							/>
+							<div class="offers__option-info">
+								<h3 class="offers__option-heading">Tylko we dwoje</h3>
+
+								<p class="offers__option-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus itaque molestias suscipit libero. Tenetur fugit totam, reiciendis quam impedit assumenda!</p>
+								<p class="offers__option-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+								<button class="offers__option-btn btn-special-animation">Wybierz</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<script src="js/main.js"></script>
+	</body>
 </html>
